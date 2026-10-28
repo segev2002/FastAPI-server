@@ -1,0 +1,50 @@
+{
+  "info": {
+    "name": "Store API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "products",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:4000/api/products"
+      }
+    },
+    {
+      "name": "search/jacket",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:4000/api/search/jacket"
+      }
+    },
+    {
+      "name": "price/15",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:4000/api/price/15"
+      }
+    },
+    {
+      "name": "rating/4.6",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:4000/api/rating/4.6"
+      }
+    },
+    {
+      "name": "price/abc",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:4000/api/price/abc"
+      }
+    },
+    {
+      "name": "rating/9",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:4000/api/rating/9"
+      }
+    }
+  ]
+}
