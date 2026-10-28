@@ -11,7 +11,8 @@ def init_db():
             description TEXT,
             method TEXT,
             route TEXT,
-            duration_ms REAL
+            duration_ms REAL,
+            create_at TEXT DEFAULT CURRENT_TIMESTAMP
         )
     """)
     conn.commit()
